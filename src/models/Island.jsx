@@ -17,44 +17,68 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
   const rotationSpeed = useRef(0);
   const dampingFactor = 0.95;
 
-  const handlePointerDown = (e) => {
-    e.stopPropagation();
-    e.preventDefault();
+  // Handle pointer (mouse or touch) down event
+  const handlePointerDown = (event) => {
+    event.stopPropagation();
+    event.preventDefault();
     setIsRotating(true);
 
-    const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+    // Calculate the clientX based on whether it's a touch event or a mouse event
+    const clientX = event.touches ? event.touches[0].clientX : event.clientX;
 
+    // Store the current clientX position for reference
     lastX.current = clientX;
   };
-  const handlePointerUp = (e) => {
-    e.stopPropagation();
-    e.preventDefault();
+
+  // Handle pointer (mouse or touch) up event
+  const handlePointerUp = (event) => {
+    event.stopPropagation();
+    event.preventDefault();
     setIsRotating(false);
   };
-  const handlePointerMove = (e) => {
-    e.stopPropagation();
-    e.preventDefault();
 
+  // Handle pointer (mouse or touch) move event
+  const handlePointerMove = (event) => {
+    event.stopPropagation();
+    event.preventDefault();
     if (isRotating) {
-      const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+      // If rotation is enabled, calculate the change in clientX position
+      const clientX = event.touches ? event.touches[0].clientX : event.clientX;
+
+      // calculate the change in the horizontal position of the mouse cursor or touch input,
+      // relative to the viewport's width
       const delta = (clientX - lastX.current) / viewport.width;
+
+      // Update the island's rotation based on the mouse/touch movement
       islandRef.current.rotation.y += delta * 0.01 * Math.PI;
+
+      // Update the reference for the last clientX position
       lastX.current = clientX;
+
+      // Update the rotation speed
       rotationSpeed.current = delta * 0.01 * Math.PI;
     }
   };
-  const handleKeyDown = (e) => {
-    if (e.key === "ArrowLeft" || e.key === "ArrowRight") {
-      setIsRotating(false);
+
+  // Handle keydown events
+  const handleKeyDown = (event) => {
+    if (event.key === "ArrowLeft") {
+      if (!isRotating) setIsRotating(true);
+
+      islandRef.current.rotation.y += 0.005 * Math.PI;
+      rotationSpeed.current = 0.0125;
+    } else if (event.key === "ArrowRight") {
+      if (!isRotating) setIsRotating(true);
+
+      islandRef.current.rotation.y -= 0.005 * Math.PI;
+      rotationSpeed.current = -0.0125;
     }
   };
-  const handleKeyUp = (e) => {
-    if (e.keyCode === "ArrowLeft") {
-      if (!isRotating) setIsRotating(true);
-      islandRef.current.rotation.y += 0.01 * Math.PI;
-    } else if (e.keyCode === "ArrowRight") {
-      if (!isRotating) setIsRotating(true);
-      islandRef.current.rotation.y -= 0.01 * Math.PI;
+
+  // Handle keyup events
+  const handleKeyUp = (event) => {
+    if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
+      setIsRotating(false);
     }
   };
 

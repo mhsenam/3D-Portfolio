@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <main className="bg-slate-300/2">
+    <main className="bg-slate-300/2 h-[100vh]">
       <Router>
         <Navbar />
         <Routes>
