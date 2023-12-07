@@ -23,7 +23,8 @@ import {
   summiz,
   tailwindcss,
   threads,
-  typescript
+  typescript,
+  shop_icon
 } from "../assets/icons";
 
 export const skills = [
@@ -32,11 +33,11 @@ export const skills = [
     name: "CSS",
     type: "Frontend",
   },
-  {
-    imageUrl: express,
-    name: "Express",
-    type: "Backend",
-  },
+  // {
+  //   imageUrl: express,
+  //   name: "Express",
+  //   type: "Backend",
+  // },
   {
     imageUrl: git,
     name: "Git",
@@ -62,26 +63,26 @@ export const skills = [
     name: "MongoDB",
     type: "Database",
   },
-  {
-    imageUrl: motion,
-    name: "Motion",
-    type: "Animation",
-  },
-  {
-    imageUrl: mui,
-    name: "Material-UI",
-    type: "Frontend",
-  },
+  // {
+  //   imageUrl: motion,
+  //   name: "Motion",
+  //   type: "Animation",
+  // },
+  // {
+  //   imageUrl: mui,
+  //   name: "Material-UI",
+  //   type: "Frontend",
+  // },
   {
     imageUrl: nextjs,
     name: "Next.js",
     type: "Frontend",
   },
-  {
-    imageUrl: nodejs,
-    name: "Node.js",
-    type: "Backend",
-  },
+  // {
+  //   imageUrl: nodejs,
+  //   name: "Node.js",
+  //   type: "Backend",
+  // },
   {
     imageUrl: react,
     name: "React",
@@ -112,56 +113,41 @@ export const skills = [
 export const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#accbe1",
-    date: "March 2020 - April 2021",
+    company_name: "Abrish",
+    icon: 'https://media.licdn.com/dms/image/D4D0BAQErDIwdlq7P6Q/company-logo_200_200/0/1699712213650/abrish_ir_logo?e=1709769600&v=beta&t=zEm98i44izDWCn2xwwxwQ-cGdNFN-Nm1KvXRt3Gc-R4',
+    iconBg: "#fff",
+    date: "Jul 2022 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "UI Design and Implementation:Designing and implementing the user interface (UI) based on requirements and graphical designs ",
+      "Web Development and Optimization: Developing and optimizing JavaScript code to improve the performance and loading speed of the website",
+      "Collaborating with the development team to integrate front-end code with other parts of the system",
+      "Ensuring optimal and responsive display of the site on various devices and screen sizes",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#fbc3bc",
-    date: "Jan 2021 - Feb 2022",
+    title: "Frontend Developer",
+    company_name: "Urban Innovation Center of Mashhad",
+    icon: 'https://media.licdn.com/dms/image/C4E0BAQHnovy7D_S2VA/company-logo_200_200/0/1641282731776?e=1709769600&v=beta&t=QGVkeoMalwmTFRs92PGTdznwINoHSgK7_sx_ZCrlmc4',
+    iconBg: "#fff",
+    date: "Jan 2022 - Jul 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Using modern front-end frameworks and libraries to enhance efficiency and development speed",
+      "Improving user experience by enhancing workflow and user interactions",
+      "Writing code documentation to facilitate understanding and future development",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#b7e4c7",
-    date: "Jan 2022 - Jan 2023",
+    title: "Frontend Developer",
+    company_name: "Diaco.inc",
+    icon: 'https://media.licdn.com/dms/image/C4E0BAQFyyNnoUzkj5A/company-logo_100_100/0/1630619431553?e=1709769600&v=beta&t=YN-uKF4wVwsJ4FTfpyl850LMHseU-9cvaxwVqa9FxZw',
+    iconBg: "#fda800",
+    date: "Sep 2018 - Mar 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Ensured responsive design principles for optimal display across various devices and screen sizes.",
+      "Developed and optimized JavaScript code to enhance website performance and loading speed.",
+
     ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#a2d2ff",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  }
 ];
 
 export const socialLinks = [
@@ -184,45 +170,18 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: pricewise,
-    theme: 'btn-back-red',
-    name: 'Amazon Price Tracker',
-    description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-    link: 'https://github.com/adrianhajdin/pricewise',
+    iconUrl: shop_icon,
+    theme: 'btn-back-black',
+    name: 'E-Commerce With ',
+    description: 'An fully responsive E-Commerce website with "Admin Dashboard Panel" using Payload CMS. Tools: Next.js, Tailwind, Payload CMS, Stripe.',
+    link: 'https://github.com/mhsenam/ecommerce',
+    s_text: 'Admin Dashboard'
   },
   {
     iconUrl: threads,
     theme: 'btn-back-green',
-    name: 'Full Stack Threads Clone',
-    description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: 'https://github.com/adrianhajdin/threads',
+    name: 'Responsive Portfolio',
+    description: 'A 3D based model website created using React, React.Three, Tailwind which renders .(glb) files.',
+    link: 'https://github.com/mhsenam/3D-Portfolio',
   },
-  {
-    iconUrl: car,
-    theme: 'btn-back-blue',
-    name: 'Car Finding App',
-    description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-    link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-  },
-  {
-    iconUrl: snapgram,
-    theme: 'btn-back-pink',
-    name: 'Full Stack Instagram Clone',
-    description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-    link: 'https://github.com/adrianhajdin/social_media_app',
-  },
-  {
-    iconUrl: estate,
-    theme: 'btn-back-black',
-    name: 'Real-Estate Application',
-    description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-    link: 'https://github.com/adrianhajdin/projects_realestate',
-  },
-  {
-    iconUrl: summiz,
-    theme: 'btn-back-yellow',
-    name: 'AI Summarizer Application',
-    description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-    link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-  }
 ];

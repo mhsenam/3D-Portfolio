@@ -39,16 +39,19 @@ const Projects = () => {
             <div className="mt-5 flex flex-col">
               <h4 className="text-2xl font-poppins font-semibold">
                 {project.name}
+                <span className="blue-gradient_text drop-shadow font-bold">
+                  {project.s_text}
+                </span>
               </h4>
               <p className="mt-2 text-slate-500">{project.description}</p>
-              <div className="mt-5 flex items-center gap-2 font-poppins">
+              <div className="mt-5 flex items-center gap-2 font-poppins animate-bounce">
                 <Link
                   to={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-semibold text-blue-600"
+                  className="font-semibold text-blue-600 hover:text-blue-950"
                 >
-                  Live Link
+                  Link
                 </Link>
                 <img
                   src={arrow}
