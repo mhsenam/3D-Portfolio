@@ -4,7 +4,7 @@ Live Demo :
 </br>
 </br>
 
-<img src="https://github.com/mhsenam/3d_portfolio/assets/18097925/ec6ea0c0-428e-4407-a4e0-a28045be18aa" width="70%"  />
+<img src="https://github.com/mhsenam/3d_portfolio/assets/18097925/ec6ea0c0-428e-4407-a4e0-a28045be18aa" width="100%"  />
 
 <p>
   The React 3D Showcase is an innovative web project that seamlessly combines the power of React with the immersive experience of 3D models rendered in the widely supported .glb file format. This project serves as a dynamic platform for promoting and presenting various projects in a visually stunning and interactive manner.
