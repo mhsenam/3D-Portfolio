@@ -28,6 +28,7 @@ import soundon from './soundon.png'
 import soundoff from './soundoff.png'
 import video from './video.svg'
 import brainwave from './brainwave.svg'
+import newsim from './newsim.svg'
 
 export {
     css,
@@ -59,5 +60,6 @@ export {
     soundon,
     soundoff,
     video,
-    brainwave
+    brainwave,
+    newsim
 }

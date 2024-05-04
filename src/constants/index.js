@@ -25,7 +25,8 @@ import {
   threads,
   typescript,
   video,
-  brainwave
+  brainwave,
+  newsim
 } from "../assets/icons";
 
 export const skills = [
@@ -195,5 +196,13 @@ export const projects = [
     description: 'Brainwave - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.',
     link: 'https://github.com/mhsenam/brainwave',
     s_text: 'Brainwave'
+  },
+  {
+    iconUrl: newsim,
+    theme: 'btn-back-green',
+    name: 'A simple Next.js Blog ',
+    description: 'Built with the latest Next.js and TailwindCSS, The purpose of building this website is to help programmers who are new to Next.js, and with the help of this project, they can get to know Next routes, and dark and light themes have been implemented in this project.',
+    link: 'https://github.com/mhsenam/next.js-blog',
+    s_text: 'Newsim'
   },
 ];
