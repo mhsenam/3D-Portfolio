@@ -26,7 +26,8 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
-import shop_icon from './shop_icon.svg'
+import video from './video.svg'
+import brainwave from './brainwave.svg'
 
 export {
     css,
@@ -57,5 +58,6 @@ export {
     contact,
     soundon,
     soundoff,
-    shop_icon
+    video,
+    brainwave
 }

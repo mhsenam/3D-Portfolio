@@ -24,7 +24,8 @@ import {
   tailwindcss,
   threads,
   typescript,
-  shop_icon
+  video,
+  brainwave
 } from "../assets/icons";
 
 export const skills = [
@@ -180,18 +181,19 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: shop_icon,
-    theme: 'btn-back-black',
-    name: 'E-Commerce With ',
-    description: 'An fully responsive E-Commerce website with "Admin Dashboard Panel" using Payload CMS. Tools: Next.js, Tailwind, Payload CMS, Stripe.',
-    link: 'https://github.com/mhsenam/ecommerce',
-    s_text: 'Admin Dashboard'
+    iconUrl: video,
+    theme: 'btn-back-orange',
+    name: 'Have a conference call with ',
+    description: 'Built with the latest Next.js and TypeScript, this project replicates Zoom, a widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.',
+    link: 'https://github.com/mhsenam/meetify',
+    s_text: 'Meetify'
   },
   {
-    iconUrl: threads,
-    theme: 'btn-back-green',
-    name: 'Responsive Portfolio',
-    description: 'A 3D based model website created using React, React.Three, Tailwind which renders .(glb) files.',
-    link: 'https://github.com/mhsenam/3D-Portfolio',
+    iconUrl: brainwave,
+    theme: 'btn-back-pink',
+    name: 'Eye catching UI with ',
+    description: 'Brainwave - Modern UI/UX website, developed using React.js and Tailwind CSS, exemplifies modern UI/UX principles. Its sleek design, seamless animations, and overall user experience set a high standard, serving as a reference or inspiration for future modern applications or websites in general.',
+    link: 'https://github.com/mhsenam/brainwave',
+    s_text: 'Brainwave'
   },
 ];

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="594" height="594" viewBox="0 0 594 594">
+  <g id="Group_2" data-name="Group 2" transform="translate(-810 -893)">
+    <path id="video-camera" d="M179.476,4a40.956,40.956,0,0,1,40.956,40.956v136.52a40.956,40.956,0,0,1-40.956,40.956H42.956A40.956,40.956,0,0,1,2,181.476V44.956A40.956,40.956,0,0,1,42.956,4Zm129.65,4.854a13.66,13.66,0,0,1,20.235,9.5l.2,2.346.079,185.024a13.658,13.658,0,0,1-18.291,12.852l-2.135-.994-61.467-35.124V43.966Z" transform="translate(941.181 1076.784)" fill="none" stroke="#fff" stroke-width="40"/>
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(810 893)" fill="none" stroke="#fff" stroke-width="40">
+      <circle cx="297" cy="297" r="297" stroke="none"/>
+      <circle cx="297" cy="297" r="277" fill="none"/>
+    </g>
+  </g>
+</svg>
