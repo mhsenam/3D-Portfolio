@@ -112,9 +112,19 @@ export const skills = [
 
 export const experiences = [
   {
+    title: "Next.js Developer",
+    company_name: "Freelancer",
+    icon: 'https://media.licdn.com/dms/image/C560BAQEJe-MEhPTm7w/company-logo_200_200/0/1631379336837?e=1723075200&v=beta&t=HOoNZdIEAi0QeBHUoRbxBMATd_UMnkXqjOThy2HBYOA',
+    iconBg: "#038ae3",
+    date: "May 2023 - Present",
+    points: [
+      "I am presently engaged in advancing and refining my frontend proficiency, with a particular focus on mastering Next.js. Concurrently, I am actively involved in the development of additional e-commerce websites, tailored to meet the diverse requirements of each customer.",
+    ],
+  },
+  {
     title: "React.js Developer",
-    company_name: "Abrish",
-    icon: 'https://media.licdn.com/dms/image/D4D0BAQErDIwdlq7P6Q/company-logo_200_200/0/1699712213650/abrish_ir_logo?e=1709769600&v=beta&t=zEm98i44izDWCn2xwwxwQ-cGdNFN-Nm1KvXRt3Gc-R4',
+    company_name: "SamaToos",
+    icon: 'https://media.licdn.com/dms/image/D4E0BAQHVSuqg7mQfAA/company-logo_200_200/0/1704094300216/samatoos_logo?e=1723075200&v=beta&t=xgV8pasGbQUHLqNcNqol1ifa8GXST2jQTBUFu3OxEaY',
     iconBg: "#fff",
     date: "Jul 2022 - May 2023",
     points: [
@@ -127,7 +137,7 @@ export const experiences = [
   {
     title: "Frontend Developer",
     company_name: "Urban Innovation Center of Mashhad",
-    icon: 'https://media.licdn.com/dms/image/C4E0BAQHnovy7D_S2VA/company-logo_200_200/0/1641282731776?e=1709769600&v=beta&t=QGVkeoMalwmTFRs92PGTdznwINoHSgK7_sx_ZCrlmc4',
+    icon: 'https://media.licdn.com/dms/image/C4E0BAQHnovy7D_S2VA/company-logo_200_200/0/1641282731776?e=1723075200&v=beta&t=5cefO5G0eNAw98QHrtlEnIHOIW9WL30PC7L19Dsmx6M',
     iconBg: "#fff",
     date: "Jan 2022 - Jul 2022",
     points: [
@@ -139,7 +149,7 @@ export const experiences = [
   {
     title: "Frontend Developer",
     company_name: "Diaco.inc",
-    icon: 'https://media.licdn.com/dms/image/C4E0BAQFyyNnoUzkj5A/company-logo_100_100/0/1630619431553?e=1709769600&v=beta&t=YN-uKF4wVwsJ4FTfpyl850LMHseU-9cvaxwVqa9FxZw',
+    icon: 'https://media.licdn.com/dms/image/C4E0BAQFyyNnoUzkj5A/company-logo_200_200/0/1630619431553?e=1723075200&v=beta&t=iC7WSSh_8WeN8SAGh2fS7w3SoBIgES75Lq4uHvu3cEA',
     iconBg: "#fda800",
     date: "Sep 2018 - Mar 2022",
     points: [
