@@ -56,7 +56,7 @@ const About = () => {
         </div>
 
         <div className="mt-12 flex">
-          <VerticalTimeline>
+          <VerticalTimeline className="costum-line">
             {experiences.map((experience, index) => (
               <VerticalTimelineElement
                 key={experience.company_name}
