@@ -128,7 +128,7 @@ export const experiences = [
     company_name: "Freelancer",
     icon: 'https://media.licdn.com/dms/image/C560BAQEJe-MEhPTm7w/company-logo_200_200/0/1631379336837?e=1723075200&v=beta&t=HOoNZdIEAi0QeBHUoRbxBMATd_UMnkXqjOThy2HBYOA',
     iconBg: "#038ae3",
-    date: "May 2023 - Present",
+    date: "May 2023 - Jul 2024",
     points: [
       "I am presently engaged in advancing and refining my frontend proficiency, with a particular focus on mastering Next.js. Concurrently, I am actively involved in the development of additional e-commerce websites, tailored to meet the diverse requirements of each customer.",
     ],
